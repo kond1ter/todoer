@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TODO</string>
+    <string name="title_progress">In progress</string>
+    <string name="title_completed">Completed</string>
+    <string name="title_statistics">Statistics</string>
+
+    <string name="todo_plaintext_hint">New TODO</string>
+    <string name="add_todo_btn">ADD</string>
+    <string name="add_todo_title">New TODO</string>
+    <string name="edit_todo_title">Edit TODO</string>
+    <string name="add_todo_hint">TODO text</string>
+    <string name="add_todo_submit_btn">Done</string>
+
+    <string name="swipe_delete_text">DELETE</string>
+    <string name="swipe_complete_text">COMPLETE</string>
+    <string name="swipe_edit_text">EDIT</string>
+    <string name="swipe_return_text">RETURN</string>
+
+    <string name="stat_completed_title">Completed all time</string>
+    <string name="stat_inProgress_title">In progress right now</string>
+    <string name="stat_completed_title_day">Completed last day</string>
+    <string name="stat_completed_title_week">Completed last week</string>
+    <string name="stat_completed_title_month">Completed last month</string>
+</resources>

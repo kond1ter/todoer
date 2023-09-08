@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_progress">
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.example.todoer.ui.progress.ProgressFragment"
+        android:label="@string/title_progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/navigation_completed"
+        android:name="com.example.todoer.ui.completed.CompletedFragment"
+        android:label="@string/title_completed"
+        tools:layout="@layout/fragment_completed" />
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.example.todoer.ui.statistics.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
+</navigation>
