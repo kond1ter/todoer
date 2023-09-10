@@ -1,4 +1,4 @@
-package com.example.todoer.ui.progress
+package com.example.todoer.ui.completed
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.todoer.R
 import com.example.todoer.TodoItem
 
-class ProgressAdapter(private val progressList: ArrayList<TodoItem>, private val context: Context) :
-    RecyclerView.Adapter<ProgressAdapter.ViewHolder>() {
+class CompleteAdapter(private val progressList: ArrayList<TodoItem>, private val context: Context) :
+    RecyclerView.Adapter<CompleteAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val progressText: TextView = itemView.findViewById(R.id.todoText)

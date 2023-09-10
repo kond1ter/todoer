@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TODO</string>
+    <string name="app_name">Todoer</string>
     <string name="title_progress">In progress</string>
     <string name="title_completed">Completed</string>
     <string name="title_statistics">Statistics</string>
@@ -21,4 +21,6 @@
     <string name="stat_completed_title_day">Completed last day</string>
     <string name="stat_completed_title_week">Completed last week</string>
     <string name="stat_completed_title_month">Completed last month</string>
+
+    <string name="todo_item_date">%1$d:%2$d %3$d.%4$d.%5$d</string>
 </resources>

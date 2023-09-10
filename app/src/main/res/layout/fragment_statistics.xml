@@ -43,7 +43,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="right"
                 android:textColor="@color/accent"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="RtlHardcoded" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +71,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="right"
                 android:textColor="@color/accent"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="RtlHardcoded" />
         </LinearLayout>
 
     </LinearLayout>
@@ -107,7 +109,8 @@
             android:fontFamily="sans-serif-medium"
             android:gravity="right"
             android:textColor="@color/accent"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
@@ -141,7 +144,8 @@
             android:fontFamily="sans-serif-medium"
             android:gravity="right"
             android:textColor="@color/accent"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
@@ -175,7 +179,8 @@
             android:fontFamily="sans-serif-medium"
             android:gravity="right"
             android:textColor="@color/accent"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
